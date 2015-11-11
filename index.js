@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
-client = require('google-images');
+var client = require('google-images');
+var requestLib = require('request');
 
 function randomIntInc(low, high) {
   return Math.floor(Math.random() * (high - low + 1) + low);
@@ -27,7 +28,7 @@ app.get('/selvaggiona', function(request, response) {
         console.error(err);
       else {
         var image = images[randomIntInc(0, images.length - 1)];
-        response.redirect(image.url);
+        requestLib.get(image.url).pipe(response);
       }
     }
   });
