@@ -1,8 +1,8 @@
 {
-  "name": "Node.js Getting Started",
-  "description": "A barebones Node.js app using Express 4",
+  "name": "SAAS - Selvaggia As A Service",
+  "description": "Because sometime you just need a photo of Selvaggia Lucarelli",
   "repository": "https://github.com/heroku/node-js-getting-started",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"],
+  "keywords": ["node", "express", "selvaggia", "lucarelli"],
   "image": "heroku/nodejs"
 }

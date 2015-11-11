@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.1.5",
-  "description": "A sample Node.js app using Express 4",
+  "name": "SAAS - Selvaggia As A Service",
+  "version": "0.0.1",
+  "description": "Because sometime you just need a photo of Selvaggia Lucarelli",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -22,7 +22,9 @@
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "express",
+    "selvaggia",
+    "lucarelli"
   ],
   "license": "MIT"
 }
