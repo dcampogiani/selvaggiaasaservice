@@ -1,7 +1,7 @@
 {
   "name": "SAAS - Selvaggia As A Service",
   "description": "Because sometime you just need a photo of Selvaggia Lucarelli",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "repository": "https://github.com/dcampogiani/selvaggiaasaservice",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "selvaggia", "lucarelli"],
   "image": "heroku/nodejs"
