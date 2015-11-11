@@ -1,5 +1,10 @@
 var express = require('express');
 var app = express();
+client = require('google-images');
+
+function randomIntInc(low, high) {
+  return Math.floor(Math.random() * (high - low + 1) + low);
+}
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -14,7 +19,18 @@ app.get('/', function(request, response) {
 });
 
 app.get('/selvaggiona', function(request, response) {
-  response.send('selvaggiona');
+
+  client.search('Selvaggia Lucarelli', {
+    page: randomIntInc(1, 10),
+    callback: function(err, images) {
+      if (err)
+        console.error(err);
+      else {
+        var image = images[randomIntInc(0, images.length - 1)];
+        response.redirect(image.url);
+      }
+    }
+  });
 });
 
 app.listen(app.get('port'), function() {
