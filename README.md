@@ -3,7 +3,7 @@
 Because sometime you just need a photo of Selvaggia Lucarelli
 
 
-This application respond at [/selvaggiona](https://blooming-waters-3482.herokuapp.com/selvaggiona) with a different photo of Selvaggia Lucarelli each time.
+This application responds at [/selvaggiona](https://blooming-waters-3482.herokuapp.com/selvaggiona) with a different photo of Selvaggia Lucarelli each time.
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
